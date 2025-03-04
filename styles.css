@@ -8,6 +8,11 @@ body {
     color: #FFDAB9; /* Peach */
 }
 
+/* Smooth Scroll Effect */
+html {
+    scroll-behavior: smooth;
+}
+
 /* Heading Styles */
 h1, h2 {
     margin-top: 50px;
@@ -26,7 +31,14 @@ h1, h2 {
     transition: transform 0.3s, background 0.3s;
 }
 
+/* Hover Effect */
 .btn:hover {
     transform: scale(1.1);
     background: white;
+}
+
+/* Click Effect */
+.btn:active {
+    transform: scale(0.95);
+    background: #FFB385; /* Slightly darker peach */
 }
